@@ -1,5 +1,4 @@
-FROM mysql:8.0.20
-MAINTAINER <abulo.hoo@gmail.com>
+FROM mysql:latest
 USER mysql
 COPY my.cnf /etc/mysql/
 EXPOSE 3306
